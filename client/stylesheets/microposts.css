@@ -1,4 +1,13 @@
 /* CSS declarations go here */
+.post {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: #ccc solid 1px;
+}
+
+.post:last-child {
+    border: 0;
+}
 img {
-    width: 100%;
+    width:100%;
 }
